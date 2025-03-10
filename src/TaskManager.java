@@ -110,7 +110,7 @@ public class TaskManager {
     public ArrayList<Subtask> getSubtasksForEpic(Epic epic){
         return getListSubtasks();
     }
-    // Очистка всех хранилищ
+    // Очищение всех хранилищ
     public void clearAllHashMaps(){
         tasks.clear();;
         subtasks.clear();

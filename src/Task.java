@@ -9,7 +9,7 @@ public class Task {
     protected String status;
     // Конструктор задачи
     public Task(String title, String description) {
-        // Инициализируем название и описание задачи
+        // Инициализируем описание и название задачи
         this.title = title;
         this.description = description;
         // Устанавливаем начальный статус задачи как NEW

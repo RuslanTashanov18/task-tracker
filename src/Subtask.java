@@ -13,7 +13,7 @@ public class Subtask extends Task {
     // Переопределенный метод установки статус подзадачи
     @Override
     public void setStatus(String status) {
-        // Устанавливем статус подзадачи с помощью метода суперкласса
+        // Устанавливаем статус подзадачи с помощью метода суперкласса
         super.setStatus(status);
         // Обновляем статус эпика, к которому относится задача
         epic.updateStatus(); //!!!!!

@@ -55,7 +55,7 @@ public class Epic extends Task {
         subtasks.put(subtask.getId(), subtask);
     }
 
-    // Метод для удаления подазадачи из эпика по Id
+    // Метод для удаления подзадачи из эпика по Id
     public void removeSubtaskById(int id) {
         subtasks.remove(id);
     }
